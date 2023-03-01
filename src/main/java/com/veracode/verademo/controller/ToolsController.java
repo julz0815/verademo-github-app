@@ -58,6 +58,7 @@ public class ToolsController {
 			}
 			else {
 				proc = Runtime.getRuntime().exec("ping " + host);
+				logger.info(proc);
 			}
 			/* END BAD CODE */
 
